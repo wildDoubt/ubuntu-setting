@@ -6,11 +6,9 @@ sudo apt-get update
 # zsh 설치
 sudo apt install zsh -y && chsh -s `which zsh`
 
-zsh
-
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+zsh
 
 # zsh 플러그인 설치
 
