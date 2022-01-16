@@ -16,7 +16,3 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zs
 
 # zsh 터미널 설정 복사
 cp ./.zshrc ~/.zshrc
-
-sudo su
-sudo echo 'wonyeong ALL=NOPASSWD: ALL' >> /etc/sudoers
-sudo su - wonyeong
